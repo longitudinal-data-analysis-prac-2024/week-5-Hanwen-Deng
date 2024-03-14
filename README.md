@@ -135,7 +135,7 @@ ggsave("../plot/datasaurus_dozen.png", width = 20, height = 20, units = "cm")
 
 ```
 ![datasaurus_dozen.](/path/to/datasaurus_dozen.png)
-
+knitr::include_graphics("datasaurus_dozen.png")
 ### What conclusions can you draw for the plots and summary statistics?
 
 lm may not be the best model to use for these datasets
