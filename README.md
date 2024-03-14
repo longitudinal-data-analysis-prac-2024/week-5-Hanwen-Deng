@@ -63,6 +63,8 @@ require(ggplot2)
 ggsave("../plot/anscombe_quartet.png", width = 20, height = 20, units = "cm")
 ```
 
+![anscombe_quartet](path/to/plot)
+
 ### What do the plots tell us about the different datasets?
 
 not all datasets fit the linear regression model \# describe the relationship between x and y in the different datasets.
@@ -132,6 +134,7 @@ ggplot(datasaurus_dozen, aes(x=x,y=y)) +
 ggsave("../plot/datasaurus_dozen.png", width = 20, height = 20, units = "cm")
 
 ```
+![datasaurus_dozen](path/to/plot)
 
 ### What conclusions can you draw for the plots and summary statistics?
 
