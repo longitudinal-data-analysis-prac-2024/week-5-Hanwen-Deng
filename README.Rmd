@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: sentence
----
-
 The following exercises are a test in disguise.
 
 What do you think about the coding?
@@ -18,17 +12,7 @@ library(tidyverse)
 
 ## PROBLEM 1
 
-> visualizing your data is important!
-> summary statistics can be highly misleading, and simply plotting the data can reveal a lot more!
-> Lets look at the Anscombe's Quartet data.
-> There are four different data sets.
-> Anscombe, F. J.
-> (1973).
-> "Graphs in Statistical Analysis".
-> American Statistician.
-> 27 (1): 17--21.
-> <doi:10.1080/00031305.1973.10478966>.
-> JSTOR 2682899.
+> visualizing your data is important! summary statistics can be highly misleading, and simply plotting the data can reveal a lot more! Lets look at the Anscombe's Quartet data. There are four different data sets. Anscombe, F. J. (1973). "Graphs in Statistical Analysis". American Statistician. 27 (1): 17--21. <doi:10.1080/00031305.1973.10478966>. JSTOR 2682899.
 
 ```{r}
 anscombe_quartet = readRDS("../dataset/anscombe_quartet.rds")
@@ -85,8 +69,7 @@ not all datasets fit the linear regression model \# describe the relationship be
 
 ### Would linear regression be an appropriate statistical model to analyse the x-y relationship in each dataset?
 
-no \# what conclusions can you draw for the plots and summary statistics?
-even if the data itself is not linear correlated but there still might be a linear mode generated.
+no \# what conclusions can you draw for the plots and summary statistics? even if the data itself is not linear correlated but there still might be a linear mode generated.
 
 ## PROBLEM 2
 
