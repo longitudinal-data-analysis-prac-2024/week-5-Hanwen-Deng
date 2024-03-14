@@ -1,11 +1,3 @@
----
-title: "week9"
-output:
-  html_document:
-    toc: true
-    toc_depth: 2
----
-
 The following exercises are a test in disguise.
 
 What do you think about the coding?
