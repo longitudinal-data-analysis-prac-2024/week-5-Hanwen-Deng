@@ -61,9 +61,10 @@ require(ggplot2)
 
 ```{r}
 ggsave("../plot/anscombe_quartet.png", width = 20, height = 20, units = "cm")
+[](plot/anscombe_quartet.png)
 ```
 
-[ ](plot/anscombe_quartet.png)
+
 
 ### What do the plots tell us about the different datasets?
 
