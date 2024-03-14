@@ -63,7 +63,7 @@ require(ggplot2)
 ggsave("../plot/anscombe_quartet.png", width = 20, height = 20, units = "cm")
 ```
 
-![anscombe_quartet.](/path/to/anscombe_quartet.png)
+![anscombe_quartet](plot/anscombe_quartet.png)
 
 ### What do the plots tell us about the different datasets?
 
@@ -134,8 +134,9 @@ ggplot(datasaurus_dozen, aes(x=x,y=y)) +
 ggsave("../plot/datasaurus_dozen.png", width = 20, height = 20, units = "cm")
 
 ```
-![datasaurus_dozen.](/path/to/datasaurus_dozen.png)
-knitr::include_graphics("datasaurus_dozen.png")
+
+![datasaurus_dozen](plot/datasaurus_dozen.png)
+
 ### What conclusions can you draw for the plots and summary statistics?
 
 lm may not be the best model to use for these datasets
